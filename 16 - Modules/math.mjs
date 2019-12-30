@@ -1,0 +1,6 @@
+export const PI = 3.14159265359;
+
+export function pow(base, exponential) {
+    if (exponential === 0) return 1;
+    return base * pow(base, exponential - 1);
+}
